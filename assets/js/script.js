@@ -19,4 +19,10 @@ function timeSatus() {
     })
 };
 
+$(".saveBtn").on("click", function() {
+    var time = $(this).siblings(".hour").text();
+    var plan = $(this).siblings(".plan").val();
+    localStorage.setItem(time, plan);
+});
+
 timeSatus();

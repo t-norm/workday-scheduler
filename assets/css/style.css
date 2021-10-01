@@ -81,7 +81,7 @@ textarea{
   color: white;
   font-size: 25px;
   transition: all .3s ease-in-out;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(6px 4px 6px black);
 }
 
 .saveBtn i {
