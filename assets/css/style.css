@@ -13,12 +13,21 @@ textarea{
   padding: 10px;
 }
 
+.lead {
+  text-decoration: underline;
+}
+
+.date {
+  font-weight: bold;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px double black;
+  padding-bottom: 10px;
 }
 
 .description{
