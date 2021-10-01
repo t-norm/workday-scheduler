@@ -28,6 +28,7 @@ textarea{
   border-radius: 0;
   border-bottom: 10px double black;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .description{
@@ -41,14 +42,21 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 75px;
   border-top: 1px solid white;;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 1.3vw;
+  font-weight: bold;
+  background-color: #fffaf1;
 }
 
 .past {
