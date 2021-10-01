@@ -25,4 +25,16 @@ $(".saveBtn").on("click", function() {
     localStorage.setItem(time, plan);
 });
 
+function getStoredData() {
+    $(".hour").each(function() {
+        var currentHour = $(this).text();
+        var currentPlan = localStorage.getItem(currentHour);
+
+        if(currentPlan !== null) {
+            $(this).siblings(".plan").val(currentPlan);
+        }
+    });
+}
+
 timeSatus();
+getStoredData();

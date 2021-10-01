@@ -93,3 +93,33 @@ textarea{
   font-size: 35px;
   transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 800px) {
+  .saveBtn {
+    font-size: 15px;
+  }
+
+  .saveBtn i:hover {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .saveBtn {
+    font-size: 10px;
+  }
+
+  .saveBtn i:hover {
+    font-size: 15px;
+  }
+
+  .col-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .col-10 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
